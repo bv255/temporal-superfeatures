@@ -1,0 +1,15 @@
+=== fold order (chronological) ===
+  development/fold_01
+  development/fold_02
+  development/fold_03
+  final_test/fold_01
+  final_test/fold_02
+  final_test/fold_03
+  final_test/fold_04
+  final_test/fold_05
+  final_test/fold_06
+
+=== features dropped in an EARLIER fold but present again in a LATER fold (or dropped, kept, dropped again - i.e. non-monotonic) ===
+  none found - every NA-dropped feature's drop status only ever moves in one direction across the expanding window (or never changes).
+
+Full per-fold membership matrix: /home/bvail/temporal-superfeatures/scripts/output/na_drop_membership.csv

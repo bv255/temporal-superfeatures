@@ -1,0 +1,6 @@
+operator,n_winners_using,n_winners_total,pct_of_winners
+lag1,4,15,26.666666666666668
+delta1,4,15,26.666666666666668
+growth1,2,15,13.333333333333334
+mean3,4,15,26.666666666666668
+std3,0,15,0.0

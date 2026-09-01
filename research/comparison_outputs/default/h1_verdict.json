@@ -1,0 +1,17 @@
+{
+  "conditions": {
+    "a_magnitude": null,
+    "b_statistical_reliability": null,
+    "c_cross_fold_consistency": null,
+    "d_attribution": null
+  },
+  "notes": {
+    "a_magnitude": "cannot be evaluated - Delta not available (see derive_delta)",
+    "b_statistical_reliability": "cannot be evaluated - temporal_vs_no_temporal comparison not available",
+    "c_cross_fold_consistency": "cannot be evaluated - winner-composition table not available",
+    "d_attribution": "cannot be evaluated - did_attribution comparison not available"
+  },
+  "verdict": "H1 VERDICT PENDING - one or more conditions could not be evaluated yet",
+  "delta": null,
+  "matched_folds": []
+}

@@ -1,0 +1,40 @@
+{
+  "walk_forward_namespace": "walk_forward_full",
+  "output_dir": "ga_runs/ga_seed106_20260824-164235",
+  "target_population_size": 100,
+  "tournament_size": 5,
+  "generations": 500,
+  "mutation_method": "decreasing",
+  "crossover_mutation": true,
+  "elitest_mutation": false,
+  "max_mutation": 0.25,
+  "min_mutation": 0.09,
+  "num_threads": 8,
+  "num_threads_baseline_c": 8,
+  "run_baseline_c": true,
+  "sector": "Finance",
+  "gbt_max_iter": 85,
+  "fitness_metric": "rank_ic",
+  "fit_backend": "local",
+  "random_seed": 106,
+  "enable_temporal_operators": true,
+  "temporal_lag_periods": [
+    1,
+    2,
+    4
+  ],
+  "temporal_window_sizes": [
+    2,
+    3,
+    4
+  ],
+  "temporal_report_date_col": "report_date",
+  "max_features": 6,
+  "max_nesting": 6,
+  "max_temporal_depth": 2,
+  "temporal_wrap_rate": 0.15,
+  "temporal_unwrap_rate": 0.08,
+  "seed_fraction": 0.3,
+  "admitted_rate_threshold": 0.15,
+  "stagnation_ceiling": 50
+}

@@ -1,0 +1,36 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+*.egg-info/
+
+# Superseded notebook lineage - kept locally, not tracked in git
+legacy/
+
+# AI-agent working notes - kept locally for Claude Code context, not tracked
+CLAUDE.md
+
+# Local run artifacts (sweep databases, sqlite state)
+research/optuna_sweep.db
+
+# "latest run" convenience symlinks (family -> ga_runs/family_TIMESTAMP), local-only
+research/ga_seed*
+research/ga_no_temporal_seed*
+
+# Generated GA/preprocessing run outputs
+research/ga/
+research/ga_fast/
+research/ga_fast_no_temporal/
+research/ga_no_temporal/
+research/ga_test_outputs/
+research/ga_test_v2_outputs/
+research/comparison_outputs/fast*/
+research/outputs/
+research/walk_forward_fast/
+research/walk_forward_full/
+research/walk_forward_test/
+research/walk_forward_test_v2/
+ga_test_outputs/
+ga_v1_outputs/

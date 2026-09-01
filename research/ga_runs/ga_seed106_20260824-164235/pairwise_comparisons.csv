@@ -1,0 +1,4 @@
+comparison,n_folds,observed_delta,lower_bound_95,raw_p_value,insufficient_folds,holm_adjusted_p_value,significant_at_0.05
+winner_vs_baseline_a,5,-0.01164600078351611,-0.05879588813643792,0.7963333333333333,False,1.0,False
+winner_vs_baseline_b,5,-0.010490805088699845,-0.03279845279701461,0.7186666666666667,False,1.0,False
+winner_vs_baseline_c,5,-0.011194438331389415,-0.04763528927151893,0.7676666666666667,False,1.0,False

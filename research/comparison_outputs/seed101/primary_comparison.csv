@@ -1,0 +1,2 @@
+comparison,n_folds,observed_delta,lower_bound_95,p_value,insufficient_folds,significant_at_0.05,seed_averaging_applied
+temporal_vs_no_temporal,5,-0.00384311641848376,-0.012213298675544097,0.31633333333333336,False,False,False

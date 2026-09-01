@@ -1,0 +1,20 @@
+{
+  "conditions": {
+    "magnitude": true,
+    "statistical_reliability": false
+  },
+  "notes": {
+    "magnitude": "observed delta-hat = 0.0001",
+    "statistical_reliability": "lower_bound_95=-0.0065, p_value=0.2897",
+    "fold_consistency_descriptive": "temporal wins 2/5 matched folds by mean IC (descriptive robustness diagnostic, not a hypothesis gate)"
+  },
+  "verdict": "H1 NOT SUPPORTED - failed condition(s): ['statistical_reliability']",
+  "matched_folds": [
+    "fold_01",
+    "fold_02",
+    "fold_03",
+    "fold_04",
+    "fold_05"
+  ],
+  "seed_averaging_applied": true
+}

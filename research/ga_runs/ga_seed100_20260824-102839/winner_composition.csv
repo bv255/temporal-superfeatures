@@ -1,0 +1,7 @@
+fold_name,eval_year,winner_leaf_count,winner_temporal_fraction,winner_uses_any_temporal,winner_leaf_classification,winner_mean_ic,winner_true_test_rmse
+fold_01,2018,6.0,0.3333333333333333,True,"['lag', 'raw', 'raw']",0.09503817634012787,0.06885025329646127
+fold_02,2020,6.0,1.0,True,['mean'],0.10946034056792811,0.1050167390297535
+fold_03,2022,6.0,0.0,False,"['raw', 'raw', 'raw', 'raw']",0.05795010645047333,0.08758719850348884
+fold_04,2024,6.0,0.0,False,"['raw', 'raw', 'raw', 'raw', 'raw']",0.030298893726931703,0.08748047002913431
+fold_05,2026,6.0,0.5,True,"['raw', 'lag']",0.024942971567202835,0.07966788180555849
+AGGREGATE (mean),,6.0,0.36666666666666664,0.6,,0.06353809773053276,0.0857205085328793

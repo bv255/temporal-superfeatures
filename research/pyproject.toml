@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superfeatures"
+version = "0.1.0"
+description = "GA-evolved temporal super-features over company fundamentals (see repo README)."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "xgboost",
+    "optuna",
+    "matplotlib",
+    "seaborn",
+    "pyarrow",
+    "cachetools",
+    "psutil",
+    "pyspark==3.5.5",
+    "py4j==0.10.9.7",
+]
+
+[project.optional-dependencies]
+dashboard = ["fastapi", "uvicorn"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,2 @@
+comparison,seeds,n_seeds,n_folds,block_length,n_resamples,observed_delta,lower_bound_95,p_value,insufficient_folds,significant_at_0.05
+temporal_vs_no_temporal_seed_and_block_bootstrap,"100,101,102,103,104,105,106,107,108,109",10,5,3,3000,0.00013863862846188974,-0.011934764450603073,0.3466666666666667,False,False
